@@ -1,4 +1,4 @@
-# animative.js (animate + primitive)
+# animative.js
 ## A script/library that uses [anime.js](http://animejs.com/) to animate a sequence of SVG primitives from one to another.
 
 See Working Demo Here: https://codepen.io/stephenlovell/pen/XzVJML
