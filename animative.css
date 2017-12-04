@@ -1,0 +1,11 @@
+.hidden {
+  display: none;
+}
+
+#sequence {
+  height: 400px;
+}
+
+svg {
+  height: 100vh;
+}
