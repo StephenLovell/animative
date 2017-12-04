@@ -11,7 +11,7 @@ Include it following the example. If you use anime.js elsewhere make sure you do
 
 You can edit the onlick functions to attach to different buttons if you like. It's just important that each button play the timeline and run the updateFrame function in the desired direction.
 
-Presently there's no method built in to help you let it autoplay through to the end of the entire SVG sequence, but there's nothing stopping you from doing it if you dig into the anime.js and know your wary around js docs.
+Presently there's no method built in to help you let it autoplay through to the end of the entire SVG sequence, but there's nothing stopping you from doing it if you dig into the anime.js docs and know your wary around js.
 
 ## Dependencies
 
@@ -20,6 +20,8 @@ This uses anime.js, so you'll need that. No jQuery or anything else is required.
 ## Roadmap
 
 There's certainly room to make this into a proper library/package/whatever that has config options and so forth. I built this for me, for a project I'm working on, so feel free to submit a pull request if you want to add things. It was built for a specific thing so it may not play well with other libraries or projects.
+
+I left a lot of console.log stuff enabled so I could debug. You can easily comment it out if you want. It'll get removed at some point so just don't depend on it to be there.
 
 ## Warnings
 
@@ -36,6 +38,6 @@ I'd very much like to thank Michael Fogleman for his lovely primitive tool. That
 (http://primitive.lol)
 (http://github.com/fogleman/primitive)
 
-I'd also like to thank Nataliya Sayenko who built a menu based primitive animation example using GreenSock. That gave me the idea to try it with anime.js with some changes. Her methodology and code were vital. In fact the first two functions in the script are pretty much the same ones she used to map the array frames.
+I'd also like to thank Nataliya Sayenko who built a menu based primitive animation example using GreenSock. That gave me the idea to try it with anime.js with some changes. Her methodology and code were vital. In fact, the first two functions in the script are pretty much the same ones she used to map the array frames.
 
 (https://codepen.io/nsayenko/pen/BpdzOZ)
