@@ -1,6 +1,8 @@
 # animative.js
 ## A script/library that uses anime.js to animate a sequence of SVG primitives from one to another.
 
+See Working Demo Here: https://codepen.io/stephenlovell/pen/XzVJML
+
 I won't lie to you, this is still a bit rough, but it works. :) I built this as both a proof of concept and to use within a project I'm working on. As such, it may not play well with others, but you're free to submit any pull requests and I'll be happy to review them.
 
 ## Use It
